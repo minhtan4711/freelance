@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+.header > p {
+    color: white;
+    font-weight: 5500;
+    font-size: 1.25rem;
+}
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 60px;
+    background: black;
+}
+.text {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hoshi {
+    color: red;
+}
+label {
+    margin-top: 10px;
+    width: 200px;
+}
+#state {
+    width: 255px;
+    height: 30px;
+}
+#payment {
+    width: 255px;
+    height: 30px;
+}
+.buttonG {
+    float: right;
+    margin-top: 30px;
+}
+.inform {
+    color: gray;
+}

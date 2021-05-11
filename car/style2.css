@@ -1,0 +1,46 @@
+.header > p {
+    color: white;
+    font-weight: 5500;
+    font-size: 1.25rem;
+}
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 60px;
+    background: black;
+}
+.text {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tableIndex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.index {
+    text-align: center;
+}
+.carInfo {
+    margin: 50px 0 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-self: center;
+}
+.carInfoDetail {
+    text-align: center;
+    /* justify-self: center; */
+}
+input {
+    justify-self: center;
+    width: 80px;
+    height: 30px;
+}
+.checkout {
+    overflow: hidden;
+    float: right;
+}
